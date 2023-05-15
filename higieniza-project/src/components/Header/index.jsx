@@ -1,5 +1,6 @@
 import React from "react";
 import Navbar from "../Navbar";
+import { FacebookIcon } from "../../assets/facebook-logo.svg";
 
 const Header = () => {
   return (
@@ -7,7 +8,7 @@ const Header = () => {
       <h2>LOGO HIGIENIZA</h2>
       <Navbar />
       <div>
-        
+        <img src={FacebookIcon} alt="Logo" />
       </div>
     </header>
   );
