@@ -1,12 +1,16 @@
-import React from 'react'
-import Navbar from '../Navbar'
+import React from "react";
+import Navbar from "../Navbar";
 
 const Header = () => {
   return (
-    <div>
+    <header className=" flex justify-between">
+      <h2>LOGO HIGIENIZA</h2>
       <Navbar />
-    </div>
-  )
-}
+      <div>
+        
+      </div>
+    </header>
+  );
+};
 
-export default Header
+export default Header;
