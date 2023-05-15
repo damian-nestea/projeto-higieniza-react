@@ -5,7 +5,7 @@ import { Link } from "react-router-dom";
 const Navbar = () => {
 
   return (
-    <ul>
+    <ul className=" flex justify-between">
       {navigationLinks.map((link, index) => (
         <li key={index}>
           <Link>{link.label}</Link>
